@@ -17,6 +17,12 @@ public class StringUtils {
     public StringUtils() {
     }
 
+    /**
+     * Vérifie si la chaine entrée est valide
+     *
+     * @param str
+     * @return true si valide false sinon
+     */
     public boolean isChaineValide(String str) {
         if (str.length() < 2) {
             throw new IllegalArgumentException(
